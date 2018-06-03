@@ -6,8 +6,8 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 var assert        = require('assert'),
   config          = require('../config/config'),
   BlockExtractor  = require('../lib/BlockExtractor').class(),
-  networks        = require('Litecore/networks'),
-  util            = require('Litecore/util/util');
+  networks        = require('fantasygold-insight-api/networks'),
+  util            = require('fantasygold-insight-api/util/util');
 
   var be = new BlockExtractor(config.bitcoind.dataDir, config.network);
   var network = config.network === 'testnet' ? networks.testnet: networks.livenet;
