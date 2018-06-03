@@ -1,16 +1,16 @@
 {
-  "name": "Litesight-bitcore-api",
-  "description": "An open-source Litecoin blockchain API. The Litesight API provides you with a convenient, powerful and simple way to query and broadcast data on the Litecoin network and build your own services with it.",
-  "version": "0.2.11",
+  "name": "fantasygold-bitcore-api",
+  "description": "An open-source fantasygold blockchain API. The fantasygold API provides you with a convenient, powerful and simple way to query and broadcast data on the Litecoin network and build your own services with it.",
+  "version": "0.0.1",
   "author": {
-    "name": "pembo210",
-    "email": "pembo210@gmail.com"
+    "name": "Scott Lindh",
+    "email": "scottlindh@gmail.com"
   },
   "repository": "git://github.com/pembo210/Litesight-api.git",
   "contributors": [
     {
-      "name": "FlappyDEV",
-      "email": "dev@goflap.io"
+      "name": "console",
+      "email": "info@merkle.group
     },
    {
       "name": "pembo210",
@@ -20,10 +20,10 @@
   "bugs": {
     "url": "https://github.com/pembo210/Litesight-api/issues"
   },
-  "homepage": "https://github.com/pembo210/Litesight-api",
+  "homepage": "https://github.com/scottie/fantasygold-insight-api",
   "license": "MIT",
   "keywords": [
-    "litesight",
+    "fantasygold",
     "litecoin",
     "blockchain",
     "litecoin api",
@@ -43,7 +43,7 @@
     "base58-native": "0.1.2",
     "bignum": "*",
     "bitauth": "^0.1.1",
-    "bitcore": "git://github.com/pembo210/Litecore.git",
+    "bitcore": "git://github.com/scottie/fantasygold-core",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "^2.3.0",
