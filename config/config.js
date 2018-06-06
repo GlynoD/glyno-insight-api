@@ -25,7 +25,7 @@ if (process.env.INSIGHT_NETWORK === 'livenet') {
   env = 'livenet';
   db = home;
   port = '3000';
-  b_port = '57810';
+  b_port = '8332';
   p2p_port = '9333';
 } else {
   env = 'testnet';
@@ -58,7 +58,7 @@ var isLinux = /^linux/.test(process.platform);
 if (!dataDir) {
   if (isWin) dataDir = '%APPDATA%\\Litecoin\\';
   if (isMac) dataDir = process.env.HOME + '/Library/Application Support/Litecoin/';
-  if (isLinux) dataDir = process.env.HOME + '/.litecoin/';
+  if (isLinux) dataDir = process.env.HOME + '~/.litecoin/';
 }
 dataDir += network === 'testnet' ? 'testnet3' : '';
 
