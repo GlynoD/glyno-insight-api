@@ -45,7 +45,8 @@ litecoind must be running and must have finished downloading the blockchain **be
 
   Run the main application:
 
-    $ node Litesight.js
+    $ nvm use 0.10.40
+    $INSIGHT_NETWORK=livenet BITCOIND_HO="127.0.0.1" BITCOIND_USER=liteuser BITCOIND_PASS=litepass INSIGHT_PUBLIC_PATH=public BITCOIND_P2P_PORT=8332 npm start
 
   Then open a browser and go to:
 
