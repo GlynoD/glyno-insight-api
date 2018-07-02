@@ -16,7 +16,7 @@
     "litecoin api",
     "blockchain api",
     "json",
-    "fantasygold-core"
+    "glyno-core-js"
   ],
   "engines": {
     "node": "*"

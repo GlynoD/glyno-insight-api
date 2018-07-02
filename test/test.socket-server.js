@@ -6,7 +6,7 @@ var expect = chai.expect;
 var sinon = require('sinon');
 
 var socket = require('../app/controllers/socket');
-var bitcore = require('fantasygold-core');
+var bitcore = require('glyno-core-js');
 var EventEmitter = require('events').EventEmitter;
 
 describe('socket server', function() {

@@ -6,8 +6,8 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 var assert        = require('assert'),
   config          = require('../config/config'),
   BlockExtractor  = require('../lib/BlockExtractor').class(),
-  networks        = require('fantasygold-core/networks'),
-  util            = require('fantasygold-core/util/util');
+  networks        = require('glyno-core-js/networks'),
+  util            = require('glyno-core-js/util/util');
 
   var be = new BlockExtractor(config.bitcoind.dataDir, config.network);
   var network = config.network === 'testnet' ? networks.testnet: networks.livenet;
