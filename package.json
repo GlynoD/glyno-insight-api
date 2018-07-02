@@ -6,8 +6,8 @@
     "name": "Scott Lindh",
     "email": "scottlindh@gmail.com"
   },
-  "repository": "https://github.com/glynoD/glyno-insight-api.git",
-  "homepage": "https://github.com/glynoD/glyno-insight-api-js",
+  "repository": "https://github.com/GlynoD/glyno-insight-api.git",
+  "homepage": "https://github.com/GlynoD/glyno-insight-api",
   "license": "MIT",
   "keywords": [
     "glyno",
