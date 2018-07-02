@@ -37,7 +37,7 @@
     "connect-ratelimit": "git://github.com/dharmafly/connect-ratelimit.git#0550eff209c54f35078f46445000797fa942ab97",
     "cron": "^1.0.4",
     "express": "~3.4.7",
-    "fantasygold-core": "https://github.com/GlynoD/glyno-core-js.git",
+    "glyno-core-js": "https://github.com/GlynoD/glyno-core-js.git",
     "glob": "*",
     "leveldown": "~0.10.0",
     "levelup": "~0.19.0",
